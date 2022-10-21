@@ -1,4 +1,4 @@
-# animeunity_scraping
+# Animeunity Scraper
 
 Recently I have been learning Italian, so I watched some anime with Italian dub/sub in a site that I came across: https://www.animeunity.tv. I am interested to know which anime has both dub and sub versions, so I can compare the two versions. To achieve this task, I decided to scrape all animes on the Italian anime streaming site using Playwright in Python, and output a csv file so I can know which animes that contain the "(ITA)" keyword (dub version) also have a counterpart without this keyword (sub version). 
 
