@@ -22,7 +22,7 @@ After about a minute, the scraping will be finished and you will have a csv file
 
 An automatic anime downloader should be easy to write, since the download link is directly available for all episodes. I may do it later. 
 
-Up to 21/10/2022, the following 173 animes series (different seasons and movies/OVAs are considered as separated anime series) have both Italian dub and sub versions:
+Up to 21/10/2022, the following 173 animes series (different seasons and movies/OVAs are considered as separate anime series) have both Italian dub and sub versions:
 
 * 5 cm al secondo
 * 7 Seeds
