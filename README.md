@@ -18,7 +18,7 @@ Then simply run the code by the command
 ```
 python scrape_animeunity.py
 ```
-After about a minute, the scraping will be finished and you will have a csv file containing the information of all animes available on the site. The code should be easily generalizable to all sites that show further search results by scrolling. The code works on 21/10/2022. There is no guarantee that this code will work if the website changes its layout in the future. 
+After about a minute, the scraping will be finished and you will have a csv file containing the information of all animes available on the site. The code should be easily generalizable to all sites that show further search results by scrolling. The code works on 21/10/2022, yet there is no guarantee that this code will work if the website changes its layout in the future. 
 
 An automatic anime downloader should be easy to write, since the download link is directly available for all episodes. I may do it later. 
 
