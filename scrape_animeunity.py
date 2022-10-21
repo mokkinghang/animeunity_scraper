@@ -11,13 +11,12 @@ with sync_playwright() as p:
     context = browser.new_context(
     user_agent=user_agent,
     )
-
     page = context.new_page()
     page.goto(url)
-        
     scroll_page_to_bottom(page)
     html = page.content()
-    soup = BeautifulSoup(html, 'html.parser')
-    df = get_anime_query_df(soup)
-    df.to_csv('animeunity.csv', index=False)
     browser.close()
+    
+soup = BeautifulSoup(html, 'html.parser')
+df = get_anime_query_df(soup)
+df.to_csv('animeunity.csv', index=False)
