@@ -21,5 +21,3 @@ with sync_playwright() as p:
     df = get_anime_query_df(soup)
     df.to_csv('animeunity.csv', index=False)
     browser.close()
-
-
