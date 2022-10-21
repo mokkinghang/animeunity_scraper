@@ -10,7 +10,7 @@ To run the code, first install the required packages:
 ```
 pip install -r requirements.txt
 ```
-You also have to install the Playwright browsers:
+You also have to install the Playwright webdrivers:
 ```
 playwright install
 ```
