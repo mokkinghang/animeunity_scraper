@@ -15,3 +15,5 @@ Then simply run the code by the command
 python scrape_animeunity.py
 ```
 After about a minute, the scraping will be finished and you will have a csv file containing the information of all animes available on the site. 
+
+An automatic downloader should be easy to write, since the download link is directly available for all episodes. I may do it later. 
